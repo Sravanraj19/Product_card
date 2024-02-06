@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+      width: 350px;
+      box-shadow: 0 0 20px #b7b5b7;
+      border-radius: 10px;
+      margin: 50px;
+
+}
+
+.image-container{
+
+    position: relative;
+}
+.image-container img{
+    width: 100%;
+    border-radius: 5px;
+}
+.review{
+     position: absolute;
+     bottom: 140px;
+     right: 50px;
+     display: block;
+     width: 60px;
+     background: #aeaef8;
+     border-radius: 5px;
+     text-align: center;  
+     padding: 10px; 
+     box-shadow: 0 5px 10px #e492bf;
+     
+
+}
+
+.details-container{
+    padding: 10px 15px;
+}
+
+
+.details-name p{
+
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif ;
+
+}
+
+.detali-rating i {
+
+    color: gold;
+    margin-top: 10px;
+}
+
+.detali-rating span{
+  font-weight: 700;
+
+}
+
+.detail-price{
+
+    margin-top: 10px;
+}
